@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique - Lyana RAMANANARIVO</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .doc-page {
+            background: white;
+            padding: 4rem;
+            max-width: 900px;
+            margin: 2rem auto;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .cover-page {
+            text-align: center;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-bottom: 2px solid var(--primary-color);
+            margin-bottom: 4rem;
+        }
+
+        .cover-title {
+            font-size: 3.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .cover-subtitle {
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 3rem;
+        }
+
+        .doc-section {
+            margin-bottom: 3rem;
+        }
+
+        .doc-h2 {
+            color: var(--primary-color);
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .sommaire-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .sommaire-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.8rem;
+            border-bottom: 1px dotted #ccc;
+        }
+
+        .article-card {
+            background: #f9f9f9;
+            padding: 1.5rem;
+            border-left: 4px solid var(--primary-color);
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s;
+        }
+
+        .article-card:hover {
+            transform: translateX(10px);
+        }
+
+        .article-desc {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 1rem;
+            font-style: italic;
+        }
+
+        .source-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- BACKGROUND -->
+    <div class="background-bubbles">
+        <div class="bg-bubble"></div>
+        <div class="bg-bubble"></div>
+        <div class="bg-bubble"></div>
+        <div class="bg-bubble"></div>
+        <div class="bg-bubble"></div>
+        <div class="bg-bubble"></div>
+    </div>
+
+    <header class="header">
+        <div class="logo">Lyana<span>.</span></div>
+        <nav class="nav">
+            <a href="index.html#home" class="nav-link">Accueil</a>
+            <a href="index.html#cv" class="nav-link">CV</a>
+            <a href="index.html#tps" class="nav-link">TPs</a>
+            <a href="index.html#bts" class="nav-link">BTS SIO</a>
+            <a href="index.html#formations" class="nav-link">Formations</a>
+            <a href="index.html#certifications" class="nav-link">Certifs</a>
+            <a href="e5.html" class="nav-link">Épreuve E5</a>
+            <a href="e6.html" class="nav-link">Épreuve E6</a>
+            <a href="veille.html" class="nav-link active">Veille</a>
+        </nav>
+    </header>
+
+    <div class="main" style="padding-top: 6rem;">
+
+        <div class="doc-page">
+            <!-- PAGE DE GARDE -->
+            <div class="cover-page">
+                <div class="hero-badge" style="margin: 0 auto 1rem;">BTS SIO SISR 2026</div>
+                <h1 class="cover-title">Dossier de Veille Technologique</h1>
+                <p class="cover-subtitle">Thème : L'évolution du Wi-Fi 7 et son impact sur les réseaux d'entreprise</p>
+                <div style="margin-top: 2rem;">
+                    <p><strong>Présenté par :</strong> Lyana RAMANANARIVO</p>
+                    <p><strong>Option :</strong> Solutions d'Infrastructures, Systèmes et Réseaux</p>
+                </div>
+                <div class="card-icon" style="font-size: 5rem; margin-top: 2rem;">🌐</div>
+            </div>
+
+            <!-- SOMMAIRE -->
+            <div class="doc-section">
+                <h2 class="doc-h2">Sommaire</h2>
+                <div class="sommaire-list">
+                    <div class="sommaire-item"><span>1. Pourquoi j'ai choisi ce thème ?</span><span>page 2</span></div>
+                    <div class="sommaire-item"><span>2. En quoi c'est utile pour mon BTS SIO SISR ?</span><span>page
+                            3</span></div>
+                    <div class="sommaire-item"><span>3. Sélection de 5 articles et sources</span><span>page 4</span>
+                    </div>
+                    <div class="sommaire-item"><span>4. Flux d'actualités en direct</span><span>page 5</span></div>
+                    <div class="sommaire-item"><span>5. Et pour ma carrière plus tard ?</span><span>page 6</span></div>
+                    <div class="sommaire-item"><span>6. Conclusion et perspective</span><span>page 7</span></div>
+                </div>
+            </div>
+
+            <!-- INTRODUCTION -->
+            <div class="doc-section">
+                <h2 class="doc-h2">1. Pourquoi j'ai choisi ce thème ?</h2>
+                <p>
+                    Pour ma veille technologique en BTS SIO (SISR), j'ai tout de suite voulu m'intéresser au
+                    <strong>Wi-Fi 7</strong>. C'est un sujet qui me parle parce que sur le terrain, on voit bien que le
+                    "tout sans-fil" devient la norme, mais que les infrastructures actuelles saturent vite avec la
+                    multiplication des appareils.
+                </p>
+                <p>
+                    Ce qui m'a impressionné avec le Wi-Fi 7, ce n'est pas seulement la promesse de débits énormes
+                    (jusqu'à 46 Gbit/s), mais surtout le côté "technique pure" derrière, comme le <strong>Multi-Link
+                        Operation (MLO)</strong>. C'est une vraie rupture technologique qui permet enfin au Wi-Fi de
+                    rivaliser sérieusement avec le bon vieux câble Ethernet en termes de stabilité et de latence.
+                </p>
+            </div>
+
+            <div class="doc-section">
+                <h2 class="doc-h2">2. En quoi c'est utile pour mon BTS SIO SISR ?</h2>
+                <p>
+                    En tant que future administratrice réseau, je vais être amenée à gérer des parcs informatiques où la
+                    mobilité est partout. Le Wi-Fi 7 touche directement aux compétences qu'on apprend en cours :
+                </p>
+                <ul style="margin-top: 1rem;">
+                    <li><strong>Infrastructure :</strong> Savoir conseiller une entreprise sur le renouvellement de ses
+                        bornes d'accès et de ses switchs (PoE++).</li>
+                    <li><strong>Sécurité :</strong> Comprendre comment les nouveaux protocoles protègent les données sur
+                        la bande 6 GHz.</li>
+                    <li><strong>Qualité de service (QoS) :</strong> Garantir que la visio ou le cloud fonctionnent sans
+                        coupure, même quand tout le monde est connecté en même temps.</li>
+                </ul>
+                <p style="margin-top: 1rem;">
+                    Bref, cette veille me permet de ne pas rester bloquée sur les technos d'hier et d'avoir un temps
+                    d'avance pour mes futurs projets en entreprise ou pour mes épreuves de BTS (comme l'E5 ou l'E6).
+                </p>
+            </div>
+
+            <!-- ARTICLES -->
+            <div class="doc-section">
+                <h2 class="doc-h2">3. Sélection d'articles et sources</h2>
+
+                <div class="article-card">
+                    <h4>Article 1 : Tout savoir sur le WiFi 7 - Wifirst</h4>
+                    <p class="article-desc">Wifirst explique les fondamentaux de la norme 802.11be, notamment les gains
+                        de vitesse et la réduction de la latence pour les usages pro.</p>
+                    <p>L'article met en avant le Multi-Link Operation (MLO) comme innovation majeure pour la stabilité
+                        des connexions sans fil.</p>
+                    <a href="https://www.wifirst.com/fr/blog/tout-savoir-sur-le-wifi-7?utm_source=chatgpt.com"
+                        target="_blank" class="source-link">🔗 Lire le dossier Wifirst</a>
+                </div>
+
+                <div class="article-card">
+                    <h4>Article 2 : Découvrir le Wi-Fi 7 - Netgear</h4>
+                    <p class="article-desc">Netgear présente l'impact du Wi-Fi 7 sur les équipements domestiques et
+                        professionnels de nouvelle génération.</p>
+                    <p>Focus sur la bande de fréquence 6 GHz et les canaux de 320 MHz qui doublent la capacité de
+                        données par rapport au Wi-Fi 6E.</p>
+                    <a href="https://www.netgear.com/ca-fr/home/discover/wifi7/?utm_source=chatgpt.com" target="_blank"
+                        class="source-link">🔗 Découvrir chez Netgear</a>
+                </div>
+
+                <div class="article-card">
+                    <h4>Article 3 : Le futur du sans-fil - Cisco</h4>
+                    <p class="article-desc">Cisco analyse l'évolution des infrastructures sans fil et comment le Wi-Fi 7
+                        s'intègre dans les réseaux d'entreprise complexes.</p>
+                    <p>Ce document traite de la fiabilité de niveau industriel et des performances offertes par la
+                        modulation 4096-QAM.</p>
+                    <a href="https://www.cisco.com/c/en/us/products/collateral/networking/wireless/wifi7-future-of-wireless-dg.html?utm_source=chatgpt.com"
+                        target="_blank" class="source-link">🔗 Voir le livre blanc Cisco</a>
+                </div>
+
+                <div class="article-card">
+                    <h4>Article 4 : Le Wi-Fi 7 et la Livebox 7 - Orange</h4>
+                    <p class="article-desc">Orange décrypte comment le standard Wi-Fi 7 est implémenté dans sa Livebox 7
+                        pour offrir des débits boostés.</p>
+                    <p>L'article explique les bénéfices concrets pour les utilisateurs finaux et la gestion intelligente
+                        du spectre radio.</p>
+                    <a href="https://tech.orange.fr/innovation/decryptage/wi-fi-7-tout-comprendre-au-nouveau-standard-de-la-livebox-7-CNT000002lHFhd.html?utm_source=chatgpt.com"
+                        target="_blank" class="source-link">🔗 Décryptage par Orange Tech</a>
+                </div>
+
+                <div class="article-card">
+                    <h4>Article 5 : La révolution Wi-Fi 7 - Free</h4>
+                    <p class="article-desc">Free présente son offre Freebox Ultra, la première box Wi-Fi 7 du marché
+                        français, et les performances atteintes.</p>
+                    <p>Une mise en avant des débits symétriques et de la simplicité d'accès à cette technologie pour le
+                        grand public et les pros.</p>
+                    <a href="https://www.free.fr/freebox/wifi-7/?utm_source=chatgpt.com" target="_blank"
+                        class="source-link">🔗 Voir l'offre Wi-Fi 7 de Free</a>
+                </div>
+            </div>
+
+            <!-- FLUX RSS DYNAMIQUE (Section 4) -->
+            <div id="live-alerts" class="doc-section" style="border-top: 1px solid #eee; padding-top: 2rem;">
+                <h2 class="doc-h2">4. Flux d'actualités en direct</h2>
+                <p>
+                    Cette section affiche les dernières actualités captées en temps réel sur le sujet du Wi-Fi 7. C'est
+                    un outil précieux pour ma veille quotidienne.
+                </p>
+                <div id="rss-feed-container" style="margin-top: 1.5rem;">
+                    <p style="text-align: center; color: #666;">⌛ Chargement des dernières alertes...</p>
+                </div>
+            </div>
+
+            <div class="doc-section">
+                <h2 class="doc-h2">5. Et pour ma carrière plus tard ?</h2>
+                <p>
+                    Au-delà du diplôme, je vois cette veille comme un investissement. Le métier d'administrateur réseau
+                    évolue super vite, et ne pas s'intéresser au Wi-Fi 7 aujourd'hui, c'est prendre le risque d'être
+                    larguée demain quand les entreprises voudront passer au 100% sans-fil.
+                </p>
+                <p>
+                    Plus tard, ça me servira à :
+                </p>
+                <ul style="margin-top: 1rem;">
+                    <li><strong>Être force de proposition :</strong> Arriver en entreprise et pouvoir expliquer pourquoi
+                        il vaut mieux investir dans du Wi-Fi 7 plutôt que de rester sur de l'ancien matériel.</li>
+                    <li><strong>Évoluer vers des postes d'experte :</strong> La maîtrise des nouvelles bandes de
+                        fréquences (6 GHz) est une compétence qui va être très recherchée chez les opérateurs ou les
+                        grandes ESN.</li>
+                    <li><strong>M'adapter aux nouveaux usages :</strong> Que ce soit pour de la réalité augmentée en
+                        milieu industriel ou pour du télétravail massif, le réseau doit suivre. Ma veille me permet de
+                        comprendre les fondations de ce futur proche.</li>
+                </ul>
+            </div>
+
+            <div class="doc-section">
+                <h2 class="doc-h2">6. Conclusion et perspective</h2>
+                <p>
+                    En conclusion, cette veille sur le Wi-Fi 7 m'a permis de comprendre que le réseau sans-fil n'est
+                    plus "l'option de secours" du câble, mais bien le coeur des infrastructures modernes. C'est une
+                    techno passionnante qui va m'accompagner tout au long de ma carrière.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Lyana RAMANANARIVO · Portfolio 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
